@@ -1,0 +1,822 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>沛县广告公司_沛县标识标牌_沛县发光字_沛县工地标准化_沛县楼顶大字_沛县门头招牌_沛县文化墙_沛县宣传栏_沛县广告制作_沛县广告设计_沛县广告安装 - 沛县苏艺广告有限公司</title>
+    <meta name="keywords" content="沛县广告公司,沛县标识标牌,沛县发光字,沛县工地标准化,沛县楼顶大字,沛县门头招牌,沛县文化墙,沛县宣传栏,沛县广告制作,沛县广告设计,沛县广告安装">
+    <meta name="description" content="沛县苏艺广告有限公司是沛县专业广告服务商，提供标识标牌、发光字、工地标准化、楼顶大字、门头招牌、文化墙等全方位广告制作与设计服务，联系电话：18952151583，18952228500">
+    <style>
+        :root {
+            --primary-color: #1a73e8;
+            --primary-dark: #0d47a1;
+            --primary-light: #64b5f6;
+            --text-color: #333;
+            --light-bg: #f5f9ff;
+            --white: #ffffff;
+            --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+        
+        body {
+            color: var(--text-color);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* 头部样式 */
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+            color: white;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: var(--shadow);
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo span {
+            margin-left: 10px;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 25px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        
+        nav ul li a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        
+        .contact-info {
+            text-align: right;
+        }
+        
+        .contact-info p {
+            margin-bottom: 5px;
+        }
+        
+        /* 英雄区域 */
+        .hero {
+            background: linear-gradient(rgba(26, 115, 232, 0.8), rgba(13, 71, 161, 0.9)), url('http://img8.dfco.cn/pxsygg/bsbpxcl-01.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: white;
+            color: var(--primary-color);
+            padding: 12px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow);
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        /* 公司简介 */
+        .about {
+            padding: 80px 0;
+            background-color: var(--light-bg);
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+            color: var(--primary-dark);
+            position: relative;
+        }
+        
+        .section-title:after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 4px;
+            background-color: var(--primary-color);
+            margin: 15px auto;
+            border-radius: 2px;
+        }
+        
+        .about-content {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+        
+        .about-text {
+            flex: 1;
+        }
+        
+        .about-image {
+            flex: 1;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+        
+        .about-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.5s ease;
+        }
+        
+        .about-image:hover img {
+            transform: scale(1.05);
+        }
+        
+        /* 服务项目 */
+        .services {
+            padding: 80px 0;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .service-card {
+            background-color: var(--white);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: transform 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .service-image {
+            height: 200px;
+            overflow: hidden;
+        }
+        
+        .service-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        
+        .service-card:hover .service-image img {
+            transform: scale(1.1);
+        }
+        
+        .service-content {
+            padding: 20px;
+        }
+        
+        .service-content h3 {
+            color: var(--primary-dark);
+            margin-bottom: 10px;
+        }
+        
+        /* 作品展示 */
+        .portfolio {
+            padding: 80px 0;
+            background-color: var(--light-bg);
+        }
+        
+        .portfolio-nav {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .portfolio-nav button {
+            background: none;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 10px 10px;
+            cursor: pointer;
+            font-size: 16px;
+            color: var(--text-color);
+            border-radius: 30px;
+            transition: all 0.3s ease;
+        }
+        
+        .portfolio-nav button.active, .portfolio-nav button:hover {
+            background-color: var(--primary-color);
+            color: white;
+        }
+        
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .portfolio-item {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            position: relative;
+            height: 250px;
+        }
+        
+        .portfolio-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        
+        .portfolio-item:hover img {
+            transform: scale(1.1);
+        }
+        
+        .portfolio-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(26, 115, 232, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .portfolio-item:hover .portfolio-overlay {
+            opacity: 1;
+        }
+        
+        /* 联系我们 */
+        .contact {
+            padding: 80px 0;
+        }
+        
+        .contact-content {
+            display: flex;
+            gap: 40px;
+        }
+        
+        .contact-info {
+            flex: 1;
+        }
+        
+        .contact-info h3 {
+            color: var(--primary-dark);
+            margin-bottom: 20px;
+        }
+        
+        .contact-details {
+            margin-bottom: 30px;
+        }
+        
+        .contact-details p {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .contact-details i {
+            margin-right: 10px;
+            color: var(--primary-color);
+        }
+        
+        .map {
+            flex: 1;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            height: 400px;
+            background-color: #eee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        /* 页脚 */
+        footer {
+            background-color: var(--primary-dark);
+            color: white;
+            padding: 40px 0 20px;
+            text-align: center;
+        }
+        
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+        
+        .footer-column {
+            flex: 1;
+            text-align: left;
+        }
+        
+        .footer-column h3 {
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        .footer-column h3:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 40px;
+            height: 2px;
+            background-color: var(--primary-light);
+        }
+        
+        .footer-column ul {
+            list-style: none;
+        }
+        
+        .footer-column ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-column ul li a {
+            color: #ddd;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-column ul li a:hover {
+            color: white;
+        }
+        
+        .copyright {
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 992px) {
+            .about-content, .contact-content {
+                flex-direction: column;
+            }
+            
+            .footer-content {
+                flex-direction: column;
+                gap: 30px;
+            }
+            
+            .footer-column {
+                text-align: center;
+            }
+            
+            .footer-column h3:after {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .logo {
+                margin-bottom: 15px;
+            }
+            
+            nav ul {
+                margin-bottom: 15px;
+            }
+            
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            nav ul li {
+                margin-left: 0;
+            }
+            
+            .portfolio-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <span>苏艺广告</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#about">公司简介</a></li>
+                    <li><a href="#services">服务项目</a></li>
+                    <li><a href="#portfolio">作品展示</a></li>
+                    <li><a href="#contact">联系我们</a></li>
+                </ul>
+            </nav>
+            <div class="contact-info">
+                <p>电话: 18952151583 / 18952228500</p>
+                <p>地址: 徐州市沛县南环路领创国际广场 D27</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- 英雄区域 -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>沛县苏艺广告有限公司</h1>
+            <p>专业广告设计与制作，提供标识标牌、发光字、工地标准化、楼顶大字、门头招牌、文化墙等全方位服务</p>
+            <a href="#contact" class="btn">联系我们</a>
+        </div>
+    </section>
+
+    <!-- 公司简介 -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">公司简介</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>沛县苏艺广告有限公司成立于沛县，是一家集广告设计、制作、安装于一体的综合性广告服务企业。公司坐落于徐州市沛县南环路领创国际广场D27，地理位置优越，交通便利。</p>
+                    <p>多年来，苏艺广告始终秉承"专业、创新、诚信、高效"的服务理念，致力于为客户提供全方位的广告解决方案。公司拥有一支经验丰富、技术精湛的设计与施工团队，能够准确把握客户需求，将创意与实用完美结合。</p>
+                    <p>我们的服务范围涵盖标识标牌、发光字、工地标准化、楼顶大字、门头招牌、文化墙等多个领域。无论是企业形象塑造、品牌推广，还是商业空间美化、公共环境营造，苏艺广告都能提供专业、优质的服务。</p>
+                    <p>在产品质量方面，我们严格把控每一个环节，从材料选择到制作工艺，从设计创意到安装施工，都力求精益求精。我们与多家优质材料供应商建立了长期合作关系，确保使用环保、耐用的材料，使每一件作品都能经得起时间的考验。</p>
+                    <p>苏艺广告注重技术创新与服务升级，不断引进先进的生产设备和工艺，提升产品品质与生产效率。同时，我们密切关注行业发展趋势，将最新的设计理念与技术应用于实际工作中，为客户提供更具创意与竞争力的广告解决方案。</p>
+                    <p>凭借卓越的产品质量与完善的售后服务，苏艺广告已在沛县及周边地区赢得了良好的口碑，与众多政府机构、企事业单位建立了长期稳定的合作关系。未来，我们将继续秉持专业精神，不断创新突破，为客户创造更大价值，为沛县的城市美化与商业繁荣贡献力量。</p>
+                </div>
+                <div class="about-image">
+                    <img src="http://img8.dfco.cn/pxsygg/bsbpxcl-01.jpg" alt="沛县苏艺广告公司">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 服务项目 -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">服务项目</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="http://img8.dfco.cn/pxsygg/bsbpxcl-02.jpg" alt="标识标牌宣传栏">
+                    </div>
+                    <div class="service-content">
+                        <h3>标识标牌宣传栏</h3>
+                        <p>专业制作各类标识标牌、宣传栏、指示牌等，材质多样，设计新颖，满足不同场所需求。</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="http://img8.dfco.cn/pxsygg/fgz-01.jpg" alt="发光字">
+                    </div>
+                    <div class="service-content">
+                        <h3>发光字</h3>
+                        <p>各类LED发光字、树脂字、迷你字、背发光字等，夜间效果醒目，提升品牌形象。</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="http://img8.dfco.cn/pxsygg/gdbzh-01.jpg" alt="工地标准化">
+                    </div>
+                    <div class="service-content">
+                        <h3>工地标准化</h3>
+                        <p>提供工地围挡、安全标识、工程标牌等标准化制作，符合行业规范，保障施工安全。</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="http://img8.dfco.cn/pxsygg/lddz-01.jpg" alt="楼顶大字">
+                    </div>
+                    <div class="service-content">
+                        <h3>楼顶大字</h3>
+                        <p>专业制作安装楼顶大字、发光字，远距离可视，提升企业辨识度与品牌形象。</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="http://img8.dfco.cn/pxsygg/mtzp-01.jpg" alt="门头招牌">
+                    </div>
+                    <div class="service-content">
+                        <h3>门头招牌</h3>
+                        <p>各类门店招牌、门头广告设计制作，吸引顾客眼球，提升商业价值。</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="http://img8.dfco.cn/pxsygg/whq-01.jpg" alt="文化墙">
+                    </div>
+                    <div class="service-content">
+                        <h3>文化墙</h3>
+                        <p>企业文化墙、党建文化墙、校园文化墙等设计制作，营造良好文化氛围。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 作品展示 -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title">作品展示</h2>
+            <div class="portfolio-nav">
+                <button class="active" data-filter="all">全部作品</button>
+                <button data-filter="bsbpxcl">标识标牌</button>
+                <button data-filter="fgz">发光字</button>
+                <button data-filter="gdbzh">工地标准化</button>
+                <button data-filter="lddz">楼顶大字</button>
+                <button data-filter="mtzp">门头招牌</button>
+                <button data-filter="whq">文化墙</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- 标识标牌图片 -->
+                <div class="portfolio-item" data-category="bsbpxcl">
+                    <img src="http://img8.dfco.cn/pxsygg/bsbpxcl-02.jpg" alt="标识标牌">
+                    <div class="portfolio-overlay">
+                        <h3>标识标牌</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="bsbpxcl">
+                    <img src="http://img8.dfco.cn/pxsygg/bsbpxcl-03.jpg" alt="标识标牌">
+                    <div class="portfolio-overlay">
+                        <h3>标识标牌</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="bsbpxcl">
+                    <img src="http://img8.dfco.cn/pxsygg/bsbpxcl-04.jpg" alt="标识标牌">
+                    <div class="portfolio-overlay">
+                        <h3>标识标牌</h3>
+                    </div>
+                </div>
+                
+                <!-- 发光字图片 -->
+                <div class="portfolio-item" data-category="fgz">
+                    <img src="http://img8.dfco.cn/pxsygg/fgz-02.jpg" alt="发光字">
+                    <div class="portfolio-overlay">
+                        <h3>发光字</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="fgz">
+                    <img src="http://img8.dfco.cn/pxsygg/fgz-03.jpg" alt="发光字">
+                    <div class="portfolio-overlay">
+                        <h3>发光字</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="fgz">
+                    <img src="http://img8.dfco.cn/pxsygg/fgz-04.jpg" alt="发光字">
+                    <div class="portfolio-overlay">
+                        <h3>发光字</h3>
+                    </div>
+                </div>
+                
+                <!-- 工地标准化图片 -->
+                <div class="portfolio-item" data-category="gdbzh">
+                    <img src="http://img8.dfco.cn/pxsygg/gdbzh-02.jpg" alt="工地标准化">
+                    <div class="portfolio-overlay">
+                        <h3>工地标准化</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="gdbzh">
+                    <img src="http://img8.dfco.cn/pxsygg/gdbzh-03.jpg" alt="工地标准化">
+                    <div class="portfolio-overlay">
+                        <h3>工地标准化</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="gdbzh">
+                    <img src="http://img8.dfco.cn/pxsygg/gdbzh-04.jpg" alt="工地标准化">
+                    <div class="portfolio-overlay">
+                        <h3>工地标准化</h3>
+                    </div>
+                </div>
+                
+                <!-- 楼顶大字图片 -->
+                <div class="portfolio-item" data-category="lddz">
+                    <img src="http://img8.dfco.cn/pxsygg/lddz-02.jpg" alt="楼顶大字">
+                    <div class="portfolio-overlay">
+                        <h3>楼顶大字</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="lddz">
+                    <img src="http://img8.dfco.cn/pxsygg/lddz-03.jpg" alt="楼顶大字">
+                    <div class="portfolio-overlay">
+                        <h3>楼顶大字</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="lddz">
+                    <img src="http://img8.dfco.cn/pxsygg/lddz-04.jpg" alt="楼顶大字">
+                    <div class="portfolio-overlay">
+                        <h3>楼顶大字</h3>
+                    </div>
+                </div>
+                
+                <!-- 门头招牌图片 -->
+                <div class="portfolio-item" data-category="mtzp">
+                    <img src="http://img8.dfco.cn/pxsygg/mtzp-02.jpg" alt="门头招牌">
+                    <div class="portfolio-overlay">
+                        <h3>门头招牌</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="mtzp">
+                    <img src="http://img8.dfco.cn/pxsygg/mtzp-03.jpg" alt="门头招牌">
+                    <div class="portfolio-overlay">
+                        <h3>门头招牌</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="mtzp">
+                    <img src="http://img8.dfco.cn/pxsygg/mtzp-04.jpg" alt="门头招牌">
+                    <div class="portfolio-overlay">
+                        <h3>门头招牌</h3>
+                    </div>
+                </div>
+                
+                <!-- 文化墙图片 -->
+                <div class="portfolio-item" data-category="whq">
+                    <img src="http://img8.dfco.cn/pxsygg/whq-02.jpg" alt="文化墙">
+                    <div class="portfolio-overlay">
+                        <h3>文化墙</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="whq">
+                    <img src="http://img8.dfco.cn/pxsygg/whq-03.jpg" alt="文化墙">
+                    <div class="portfolio-overlay">
+                        <h3>文化墙</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="whq">
+                    <img src="http://img8.dfco.cn/pxsygg/whq-04.jpg" alt="文化墙">
+                    <div class="portfolio-overlay">
+                        <h3>文化墙</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">联系我们</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>沛县苏艺广告有限公司</h3>
+                    <div class="contact-details">
+                        <p><i>📞</i> 电话: 18952151583 / 18952228500</p>
+                        <p><i>📍</i> 地址: 徐州市沛县南环路领创国际广场 D27</p>
+                        <p><i>⏰</i> 营业时间: 周一至周日 8:00-18:00</p>
+                    </div>
+                    <p>欢迎来电咨询，我们将为您提供专业的广告解决方案！</p>
+                </div>
+                <div class="map">
+                    <p>地图位置: 徐州市沛县南环路领创国际广场 D27</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>关于我们</h3>
+                    <p>沛县苏艺广告有限公司是一家专业的广告设计与制作公司，提供全方位的广告服务。</p>
+                </div>
+                <div class="footer-column">
+                    <h3>服务项目</h3>
+                    <ul>
+                        <li><a href="#">标识标牌宣传栏</a></li>
+                        <li><a href="#">发光字</a></li>
+                        <li><a href="#">工地标准化</a></li>
+                        <li><a href="#">楼顶大字</a></li>
+                        <li><a href="#">门头招牌</a></li>
+                        <li><a href="#">文化墙</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>联系我们</h3>
+                    <ul>
+                        <li>电话: 18952151583</li>
+                        <li>电话: 18952228500</li>
+                        <li>地址: 徐州市沛县南环路领创国际广场 D27</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 沛县苏艺广告有限公司 版权所有</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 作品展示筛选功能
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.portfolio-nav button');
+            const portfolioItems = document.querySelectorAll('.portfolio-item');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // 移除所有按钮的active类
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    // 为当前点击的按钮添加active类
+                    this.classList.add('active');
+                    
+                    const filterValue = this.getAttribute('data-filter');
+                    
+                    portfolioItems.forEach(item => {
+                        if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // 平滑滚动
+            document.querySelectorAll('nav a').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
